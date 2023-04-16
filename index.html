@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROFILE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8253b048fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Ayyappa</span></h1>
+                <p>Front-End-Developer & Flexible To Work</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-----------------about-------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img4.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>To obtain a challenging position in a growth-oriented company where I can utilize my skills and knowledge to make a positive impact. I am currently looking for an opportunity where I can join a team of knowledgeable and talented individuals and collaborate with them to achieve common goals.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('interest')">Area Of Interest</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span><br>Problem Solving/Competative Coding/HTML/CSS</li>
+                            <li><span>Soft Skills</span><br>Team Management/Leadership/Communication/Project Management</li>
+                            <li><span>Coding Languages</span><br>C/C++/JAVA/PYTHON</li>
+                            <li><span>FRAMEWORKS</span><br>React/Django</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Student Peer Mentor</span><br>Involves assisting faculty in preparing learning modules, practical manuals, delivery plans and finding learning platforms for students. This is where I discovered my inner skills and get to know that I can handle technologies well in the domain that I have been assigned to.</li>
+                            <li><span>Future Ready Talent Intern Microsoft</span><br>Where we learned courses offered by microsoft and built a QnA Maker(cloud based) for a website and earned a certificate.
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> Ongoing-June 2020</span><br>B.TECH in Computer Science & Engineering</li>
+                            <li><span> June 2018 - April 2020</span><br>Intermediate in Jupiter Junior College</li>
+                            <li><span> Metriculation April 2020</span><br>Metriculation in Oxford EM High School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interest">
+                        <ul>
+                            <li><span> Machine Learning Algorithm's</span><br></li>
+                            <li><span> Java Full Stack Development</span><br></li>
+                            <li><span> Front End Technologies</span><br></li>
+                            <li><span> Data Science</span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------------Projects------------------------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projectslist">
+            <div>
+                <i class="fa-solid fa-diagram-project"></i>
+                <h2>Book -Ecommerce Website</h2>
+                <p>It is an online platform that allows users to purchase books electronically over the internet. The platform could include features such as user authentication, browsing and searching for books, adding books to a shopping cart, review for a product, and delivering status for purchased books to the user.</p>
+                <a href="https://github.com/kl2000032271">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-diagram-project"></i>
+                <h2>Spotify-Clone</h2>
+                <p>A "Spotify clone" project using the ReactJS framework would involve building a web application that replicates the functionality and user experience of the popular music streaming platform, Spotify. The project would likely involve using ReactJS, a JavaScript library for building user interfaces, to develop the front-end of the application</p>
+                <a href="https://github.com/kl2000032271">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-diagram-project"></i>
+                <h2> Image Classification</h2>
+                <p>Built an application that can classify Cricket players images using deep learning and react native mobile app framework Used Tensorflow,tf Dataset for data augmentation and model training using Convolutional Neural Network (CNN) architecture. Deployed the model to Google Cloud Platform (GCP), built a mobile application in React Native that calls GCP for image classification calls. Data collection was performed by collecting players photos and using Python and OpenCV for image processing.</p>
+                <a href="https://github.com/kl2000032271">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------Certifications-------------------------------->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/certi1.png">
+                <div class="layer">
+                    <h3>AWS Certified Cloud Practitioner</h3>
+                    <a href="https://www.credly.com/badges/338d6726-2806-44dd-b565-5146a21c4b17/public_url"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/certi2.png">
+                <div class="layer">
+                    <h3>AWS Certified Developer - Associate</h3>
+                    <a href="https://www.credly.com/badges/0247a2d3-b560-4a7a-afa1-4b2a7bddc821/public_url"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/certi3.png">
+                <div class="layer">
+                    <h3>AWS Academy Machine Learning Foundations</h3>
+                    <a href="https://www.credly.com/badges/af9a7892-0214-42cf-b2d3-cc84e19976b9/public_url"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/certi4.png">
+                <div class="layer">
+                    <h3>Red Hat Enterprise Application Developer</h3>
+                    <a href="https://www.credly.com/badges/217ceeca-bbb1-41d6-b30a-dff68007937d/public_url"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------------------contact------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope"></i> vnktayyappa@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +9133651575</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kl2000032271/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/kl2000032271"><i class="fa-brands fa-github"></i></a>
+                    <a href="vnktayyappa@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href=""><i class="fa-solid fa-phone"></i></a>
+                </div>
+                <a href="images/RESUME.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @vnktayyappa. Made with <i class="fa-solid fa-dove"></i> html & css</p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyB_IQ4yKgU4Emqkf3cfWPbhh4k97YrRSL2Ia1bRbCp80dXN3VpStxbtHecM8soiU2S/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succuessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
